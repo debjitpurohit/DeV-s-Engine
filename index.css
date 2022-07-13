@@ -98,6 +98,7 @@ section{
 #lang{
     padding-top: 20px;
     font-size: 14px;
+    display: flexbox;
 }
 #lang2{
     text-decoration: none;
@@ -125,3 +126,87 @@ section{
         padding: 0px 0px 0px 100px ;
 }
 }
+@media (max-width: 649px){
+    #debimg{
+     height: 200px;
+     width: 400px;
+    }
+    .searchbox{
+        width: 80%;
+       }
+
+       #lang{
+        flex-wrap: wrap;
+        font-size: 10px;
+        margin: 10px 10px;
+
+       }   
+}
+@media (max-width: 613px){
+       #debimg{
+        height: 142px;
+        width: 300px;
+       }
+       .searchbox{
+        width: 70%;
+       }
+       #lang{
+        font-size: 10px;
+        margin: 10px 10px;
+       }
+       #lang2{
+        font-size: 12px;
+       }
+       @keyframes widthAnimate3 {
+        0% {
+            padding:  0px;
+        }
+        100%{
+            padding: 0px 0px 0px 50px ;
+    }
+
+        }
+       #btn{
+        /* font-size: 10px; */
+        padding: 10px;
+       }
+       #btn2{
+        /* font-size: 10px; */
+        padding: 10px;
+       }
+}
+@media (max-width:321px) {
+    #debimg{
+        height: 100px;
+        width: 250px;
+       }
+    
+}
+@media (max-width:263px){
+    #btn{
+        padding: 5px;
+        /* font-size: 10px; */
+        /* margin-top: 15px; */
+        margin: 15px 2px 0px 2px;
+       }
+       #btn2{
+        padding: 5px;
+        /* font-size: 10px; */
+        /* margin-top: 15px; */
+        margin: 15px 2px 0px 2px;
+       }
+}
+@media (max-width:258px){
+    #debimg{
+        height: 100px;
+        width: 200px;
+       }
+}
+@media (max-width:258px){
+    #debimg{
+        height: 100px;
+        width: 200px;
+       }
+}
+
+
