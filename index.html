@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev's Engine</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <section>
+        <div class="main">
+            <img src="action.png" alt="" srcset="" id="debimg">
+            <div class="searchbox">
+                <input type="text" name="" class="query" value="" placeholder="  Search DeV's egnine or type a URL">
+                <div class="icons">
+                    <div><img src="search.png" alt="" srcset="" id="Debs" > </div>
+                    <div><img src="mic.png" alt="" srcset="" id="Debm"></div>
+                </div>
+            </div>
+            <div class="button">
+                <button id="btn">Dev's Search</button>
+                <button id="btn2">I'm Feeling Happy</button>
+            </div>
+            <div class="language">
+                <p id="lang">Dev's Engine offered in: 
+                    <a id="lang2" href="">हिन्दी</a>
+                    <a id="lang2" href="">বাংলা</a> 
+                    <a id="lang2" href="">తెలుగు</a>
+                    <a id="lang2" href="">मराठी</a>
+                    <a id="lang2" href="">தமிழ்</a> 
+                    <a id="lang2" href="">ગુજરાતી</a>
+                    <a id="lang2" href="">ಕನ್ನಡ</a> 
+                    <a id="lang2" href="">മലയാളം</a>
+                    <a id="lang2" href="">ਪੰਜਾਬੀ</a></p>
+            </div>
+        </div>
+    </section>
+    <div class="footer">Made By &#10084; DEBJIT PUROHIT</div>
+    <script>
+        let query= document.querySelector('.query');
+        document.getElementById('btn')
+
+        btn.addEventListener('click',function(){
+               let url = 'https://www.google.co.in/search?q='+query.value;
+               window.open(url,'_self');      
+        })
+
+    </script>
+</body>
+</html>
